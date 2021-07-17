@@ -1,17 +1,17 @@
 -- Get the name weight and max weight
--- SELECT name, weight, (SELECT MAX(weight) FROM animals)
--- FROM animals;
+SELECT name, weight, (SELECT MAX(weight) FROM animals)
+FROM animals;
 
 
 -- Find all the names and class of all animals that 
 -- have a maintance to weight ratio greater than 200
--- SELECT * 
--- FROM (
---     SELECT name, type, class, (maintenance_cost/weight)
---     AS price_to_weight
---     FROM animals
--- ) AS price_to_weight_table
--- WHERE price_to_weight > 200;
+SELECT * 
+FROM (
+    SELECT name, type, class, (maintenance_cost/weight)
+    AS price_to_weight
+    FROM animals
+) AS price_to_weight_table
+WHERE price_to_weight > 200;
 
 
 -- Average number of animals per zoo_keeper
