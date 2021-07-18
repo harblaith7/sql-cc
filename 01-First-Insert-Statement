@@ -1,3 +1,5 @@
+-- INSERT THIS DATA
+
 INSERT INTO animals (name, type, age, gender, birth_date)
 VALUES 
     ('Kitty', 'Tiger', 14, true, '2012-04-06'),
