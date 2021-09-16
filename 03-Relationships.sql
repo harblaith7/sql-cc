@@ -42,7 +42,7 @@ CREATE TABLE animals_food (
 )
 
 
-INSERT INTO animals (name, class, type, age, gender, birth_date, maintenance_cost, weight, monthly_visitors, zoo_keeper_id, medicine_id)
+INSERT INTO animals (name, class, type, age, gender, birth_date, maintenance_cost, weight, monthly_visitors, zookeeper_id, medicine_id)
 VALUES 
     ('Kitty', 'mammal', 'tiger', 14, true, '2012-04-06', 20325, 245, 3422, 1, 1),
     ('Fargo', 'bird', 'penguin', 22, true, '2002-11-01', 12442, 92, 2234, 1, 2),
@@ -52,7 +52,7 @@ VALUES
     ('Garfield', 'bird', 'ostrich', 37, true, '1980-03-22', 5982, 169, 3406, null, null),
     ('Elfo', 'mammal', 'tiger', 5, false, '2016-11-06', 12888, 125, 9744, 2, 7),
     ('Kilo', 'mammal', 'kangaroo', 85, false, '1940-12-03', 13434, 169, 7227, 2, 8),
-    ('Marco', 'mammal', 'cat', 2, false, '2019-11-11', 375, 4, 32, 2, null, 9),
+    ('Marco', 'mammal', 'cat', 2, false, '2019-11-11', 375, 4, 32, null, 9),
     ('Wings', 'mammal', 'buffalo', 62, true, '1945-10-11', 54245, 433, 1446, 2, 10),
     ('Patro', 'bird', 'flamengo', 12, true, '2009-04-12', 6544, 120, 5545, 2, 11),
     ('Laptop', 'mammal', 'mouse', 7, true, '2014-11-01', 122, 1, 21, 3, 12),
