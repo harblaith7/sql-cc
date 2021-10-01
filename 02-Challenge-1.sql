@@ -23,7 +23,7 @@ VALUES
     ('Endo', 'reptile', 'snake', 14, true, '2012-04-06', 2553, 6, 3320),
     ('Jess', 'mammal', 'wolve', 55, true, '1970-11-01', 4311, 89, 3321),
     ('Matteo', 'amphibian', 'dart frog', 2, false, '2019-01-01', 533, 1, 953),
-    ('Morgan', 'repitle', 'comodo dragon', 53, true, '1970-12-29', 8884, 85, 14244),
+    ('Morgan', 'reptile', 'comodo dragon', 53, true, '1970-12-29', 8884, 85, 14244),
     ('Noah', 'mammal', 'elephant', 22, false, '2000-04-14', 133053, 895, 23323),
     ('Piko', 'bird', 'ostrich', 27, true, '1990-03-22', 43555, 255, 5344),
     ('Altas', 'mammal', 'dolphin', 5, false, '2016-11-06', 44328, 273, 10442),
